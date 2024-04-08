@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#003C43 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-color: aliceblue;
+margin: 2rem;
+padding: 3rem;
+}
+h1{
+    color: #003C43;
+    text-transform: uppercase;
+    padding: 3rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.password{
+    font-size: 1.2rem;
+padding: 1rem;
+outline: none;
+border: none;
+border: 2px solid #003C43 ;
+}
+.password:focus{
+    border-radius: 5px solid ;
+}
+.btn{
+    border: none;
+    background-color: #003C43;
+    padding: .4rem 1.8rem;
+    color: aliceblue;
+    font-size: 1.4rem;
+    border-radius: 7px;
+}
